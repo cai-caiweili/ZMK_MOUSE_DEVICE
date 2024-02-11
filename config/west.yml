@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
     - name: petejohanson
       url-base: https://github.com/petejohanson      
   projects:
@@ -11,9 +9,6 @@ manifest:
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: zmk-pmw3610-driver
-      remote: inorichi
-      revision: main
     - name: cirque-input-module
       remote: petejohanson
       revision: main  
