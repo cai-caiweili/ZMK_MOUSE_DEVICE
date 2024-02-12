@@ -37,7 +37,7 @@ input_config {
     compatible = "zmk,input-configs";
 
     cirque_config {
-        evice = <&glidepoint>;
+        device = <&glidepoint>;
         //xy-swap;
         //y-invert;
         //x-invert;
