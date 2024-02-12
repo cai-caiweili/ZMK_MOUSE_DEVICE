@@ -31,8 +31,8 @@
         sleep;
         //no-taps;
     };
-};
 
+//This will change in the future
 input_config {
     compatible = "zmk,input-configs";
 
@@ -41,6 +41,7 @@ input_config {
         //xy-swap;
         //y-invert;
         //x-invert;
+        };
     };
 };
-//This will change in the future
+
