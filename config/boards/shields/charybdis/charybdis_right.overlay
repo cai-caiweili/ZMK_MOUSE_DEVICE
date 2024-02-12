@@ -38,9 +38,9 @@ input_config {
 
     cirque_config {
         evice = <&glidepoint>;
-        xy-swap;
-        y-invert;
-        x-invert;
+        //xy-swap;
+        //y-invert;
+        //x-invert;
     };
 };
 //This will change in the future
