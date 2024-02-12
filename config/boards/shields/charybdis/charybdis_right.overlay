@@ -32,3 +32,15 @@
         //no-taps;
     };
 };
+
+input_config {
+    compatible = "zmk,input-configs";
+
+    cirque_config {
+        evice = <&glidepoint>;
+        xy-swap;
+        y-invert;
+        x-invert;
+    };
+};
+//This will change in the future
