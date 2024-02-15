@@ -4,9 +4,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
-	zmk,led-capslock = &led_capslock;
-   	zmk,led-numlock = &led_numlock;
-	zmk,led-scrolllock = &led_scrolllock;
     };
 
     default_transform: keymap_transform_0 {
