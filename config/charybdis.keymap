@@ -60,3 +60,7 @@
 &trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_RIGHT  &mmv SCRL_UP
 &trans  &trans  &trans  &trans     &trans     &trans       &trans     &trans     &trans          &mmv MOVE_DOWN  &trans           &mmv SCRL_DOWN
                         &mkp RCLK  &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp LCLK
+            >;
+        };
+    };
+};
