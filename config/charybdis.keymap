@@ -15,12 +15,12 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_4 {
+        test {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
-&trans  &trans  &trans  &trans  &trans  &trans    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
-                        &trans  &trans  &trans    &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
+                                    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &out OUT_BLE  &out OUT_BLE
             >;
         };
 
