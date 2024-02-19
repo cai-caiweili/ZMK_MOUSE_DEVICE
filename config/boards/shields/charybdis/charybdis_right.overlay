@@ -31,7 +31,6 @@
         sleep;
         no-taps;
     };
-};
 
 //This will change in the future
 //input_config {
@@ -44,13 +43,12 @@
 //        x-invert;
 //        };
 
-/ {
-  cirque_listener {
+cirque_listener {
     compatible = "zmk,input-listener";
     device = <&cirque>;
     xy-swap;
     y-invert;
     x-invert;
-  };
+    };
 };
 
