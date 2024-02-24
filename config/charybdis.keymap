@@ -1,12 +1,12 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/kscan_mock.h>
 #include <behaviors/mouse_move.dtsi>
 #include <behaviors/mouse_scroll.dtsi>
 #include <behaviors/mouse_keys.dtsi>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 
 &lt {
     tapping-term-ms = <200>;
@@ -20,10 +20,10 @@
 
         test {
             bindings = <
-&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
-&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
-&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
-                                    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR
+&out OUT_USB  &out OUT_USB  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR    &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR    &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+                                        &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR
             >;
         };
 
