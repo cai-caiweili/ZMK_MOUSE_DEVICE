@@ -50,6 +50,7 @@
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "okay";
+        spi-max-frequency = <2000000>;
         dr-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH)>;
 
         sensitivity = "4x";
