@@ -32,3 +32,13 @@
         no-taps;
     };
 };
+
+/ {
+glidepoint_listener {
+    compatible = "zmk,input-listener";
+    device = <&glidepoint>;
+    xy-swap;
+    y-invert;
+    x-invert;
+    };
+};
