@@ -21,7 +21,7 @@
 
 &pro_micro_i2c {
     status = "okay";
-    cirque: cirque@2a {
+    glidepoint: glidepoint@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "okay";
@@ -31,21 +31,12 @@
         sleep;
         no-taps;
     };
+};
 
-//This will change in the future
-//input_config {
-//    compatible = "zmk,input-configs";
-//
-//    cirque_config {
-//        device = <&glidepoint>;
-//        xy-swap;
-//        y-invert;
-//        x-invert;
-//        };
-
-cirque_listener {
+/ {
+glidepoint_listener {
     compatible = "zmk,input-listener";
-    device = <&cirque>;
+    device = <&glidepoint>;
     xy-swap;
     y-invert;
     x-invert;
