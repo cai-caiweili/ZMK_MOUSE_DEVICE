@@ -20,10 +20,10 @@
 
         test {
             bindings = <
-&out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB    &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB
-&out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB    &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB
-&out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB    &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB  &out OUT_USB
-                                          &out OUT_USB  &out OUT_USB  &out OUT_USB    &out OUT_USB  &out OUT_USB
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+                                    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR
             >;
         };
 
