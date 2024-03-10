@@ -53,15 +53,15 @@
         sleep;
         no-taps;
     };
-};
 
-input_config {
-    compatible = "zmk,input-configs";
+    input_config {
+        compatible = "zmk,input-configs";
     
-    cirque_config {
-        device = <&glidepoint>;
-        xy-swap;
-        y-invert;
-        x-invert;
+        cirque_config {
+            device = <&glidepoint>;
+            xy-swap;
+            y-invert;
+            x-invert;
         };
     };
+};
