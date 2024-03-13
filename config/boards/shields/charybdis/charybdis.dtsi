@@ -52,21 +52,22 @@
     glidepoint: glidepoint@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
-        status = "disabled";
+        status = "okay";
         dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "4x";
         // sleep;
         no-taps;
     };
+};
 
-    input_config {
-        compatible = "zmk,input-configs";
-    
-        cirque_config {
-            device = <&glidepoint>;
-            xy-swap;
-            y-invert;
-            x-invert;
-        };
+
+/ {
+glidepoint_listener {
+    compatible = "zmk,input-listener";
+    device = <&glidepoint>;
+
+    xy-swap;
+    y-invert;
+    x-invert;
     };
 };
