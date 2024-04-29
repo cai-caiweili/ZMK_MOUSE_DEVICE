@@ -1,5 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include <dt-bindings/zmk/mouse.h> 
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1500  // 600 
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10 
+  
 / {
     chosen {
         zmk,kscan = &kscan0;
@@ -43,31 +46,5 @@
 			, <&pro_micro 5 GPIO_ACTIVE_HIGH>
 			, <&pro_micro 6 GPIO_ACTIVE_HIGH>
             ;
-    };
-};
-
-&pro_micro_i2c {
-    status = "disabled";
-
-    glidepoint: glidepoint@2a {
-        compatible = "cirque,pinnacle";
-        reg = <0x2a>;
-        status = "disabled";
-        dr-gpios = <&gpio0 6 0 (GPIO_ACTIVE_HIGH)>;
-        sensitivity = "4x";
-        // sleep;
-        // no-taps;
-    };
-};
-
-
-/ {
-glidepoint_listener {
-    compatible = "zmk,input-listener";
-    device = <&glidepoint>;
-
-    xy-swap;
-    y-invert;
-    x-invert;
     };
 };
