@@ -38,8 +38,8 @@
 cirque_listener {
     compatible = "zmk,input-listener";
     device = <&cirque>;
-    scale-multiplier = <5>;
-    scale-divisor = <1>;
+    scale-multiplier = <5>;
+    scale-divisor = <1>;
     xy-swap;
     y-invert;
     x-invert;
