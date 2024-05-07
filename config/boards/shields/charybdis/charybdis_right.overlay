@@ -25,7 +25,7 @@
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "okay";
-        dr-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios = <&pro_micro 4 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "4x";
         // sleep;
         no-taps;
