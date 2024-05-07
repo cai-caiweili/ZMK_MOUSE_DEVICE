@@ -1,19 +1,20 @@
 if SHIELD_CHARYBDIS_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Charybdis"
+    default "Charybdis"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
-	default y
+    default y
+
+config I2C
+    default y
 
 endif
 
 if SHIELD_CHARYBDIS_LEFT || SHIELD_CHARYBDIS_RIGHT
 
 config ZMK_SPLIT
-	default y
+    default y
 	
 endif
 
-config I2C
-	default y
