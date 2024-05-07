@@ -16,10 +16,10 @@
 
         test {
             bindings = <
-&out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE    &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
-&out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE    &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
-&out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE    &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE  &out OUT_BLE
-                                          &out OUT_BLE  &out OUT_BLE  &out OUT_BLE    &out OUT_BLE  &out OUT_BLE
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+&bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR  &bt BT_CLR
+                                    &bt BT_CLR  &bt BT_CLR  &bt BT_CLR    &bt BT_CLR  &bt BT_CLR
             >;
         };
 
