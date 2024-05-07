@@ -21,14 +21,13 @@
 
 &pro_micro_i2c {
     status = "okay";
-    clock-frequency = <400000>;
     cirque: cirque@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "okay";
-        dr-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH)>;
+        dr-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "4x";
-        sleep;
+        // sleep;
         no-taps;
     };
 };
@@ -38,7 +37,7 @@
 cirque_listener {
     compatible = "zmk,input-listener";
     device = <&cirque>;
-    scale-multiplier = <5>;
+    scale-multiplier = <1>;
     scale-divisor = <1>;
     xy-swap;
     y-invert;
