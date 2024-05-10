@@ -30,7 +30,10 @@
 };
 
 / {
-	pd1: virtual_input {
+	trackball: virtual_input_0 {
+		compatible = "zmk,virtual-input";
+
+	pd1: virtual_input_1 {
 		compatible = "zmk,virtual-input";
 	};
 
