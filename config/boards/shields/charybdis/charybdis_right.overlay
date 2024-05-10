@@ -26,10 +26,7 @@
 };    
 
 &trackball {
-    status = "okay";  
-    snipe-layers = <1>;
-    scroll-layers = <2 3>;
-    automouse-layer = <4>;	  
+    status = "okay";  	  
 };
 
 / {
