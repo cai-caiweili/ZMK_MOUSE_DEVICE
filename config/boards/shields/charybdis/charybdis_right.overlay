@@ -26,20 +26,17 @@
 };    
 
 &trackball {
-	status = "okay";    
+    status = "okay";    
 };
 
 / {
-	trackball: virtual_input_0 {
-		compatible = "zmk,virtual-input";
+pd1: virtual_input {
+    compatible = "zmk,virtual-input";
+};
 
-	pd1: virtual_input_1 {
-		compatible = "zmk,virtual-input";
-	};
-
-	input_relay_config_102 {
-		compatible = "zmk,split-peripheral-input-relay";
-		device = <&trackball>;
-		relay-channel = <102>;
-	};
+input_relay_config_102 {
+    compatible = "zmk,split-peripheral-input-relay";
+    device = <&trackball>;
+    relay-channel = <102>;
+    };
 };
