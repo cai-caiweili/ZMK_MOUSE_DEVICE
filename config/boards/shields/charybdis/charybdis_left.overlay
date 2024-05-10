@@ -21,3 +21,13 @@
 		device = <&pd1>;
 	};
 };
+
+/{
+  trackball_listener { 
+    compatible = "zmk,input-listener";
+    device = <&pd1>;
+	scale-multiplier = <1>;
+    scale-divisor = <1>;
+    x-invert;
+  };
+};
