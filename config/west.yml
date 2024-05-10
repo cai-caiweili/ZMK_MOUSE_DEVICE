@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: Fushilaofang
-      url-base: https://github.com/Fushilaofang
     - name: badjeff
       url-base: https://github.com/badjeff  
   projects:
