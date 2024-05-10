@@ -1,21 +1,19 @@
 manifest:
   remotes:
-    - name: zmkfirmware
+    - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: inorichi
-      url-base: https://github.com/inorichi
-    - name: badjeff
-      url-base: https://github.com/badjeff     
+    - name: Fushilaofang
+      url-base: https://github.com/Fushilaofang
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: petejohanson
       revision: feat/pointers-move-scroll
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: inorichi
+      remote: Fushilaofang
       revision: main
     - name: zmk-split-peripheral-input-relay
-      remote: badjeff
+      remote: Fushilaofang
       revision: main  
   self:
     path: config
