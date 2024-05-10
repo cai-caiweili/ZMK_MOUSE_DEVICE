@@ -23,9 +23,11 @@
 
 &spi1 {
     status = "okay";
+};    
 
 &trackball {
 	status = "okay";    
+};
 
 / {
 	pd1: virtual_input {
