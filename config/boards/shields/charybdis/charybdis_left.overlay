@@ -67,22 +67,6 @@
            bindings = <&ib_wheel_scaler 1 8>;
    };
 
-   /* the binding input behavior is a scrolling layer */
-   trackball_peripheral_scroll_listener {
-           compatible = "zmk,input-behavior-listener";
-           device = <&pd1>;
-           layers = <3>;
-           evt-type = <INPUT_EV_REL>;
-           
-           /* slienting x-axis with alt event code */
-           x-input-code = <INPUT_REL_MISC>;
-           y-input-code = <INPUT_REL_WHEEL>;
-           /* invent scrolling direction */
-           y-invert;
-           /* align to CCW 45 degree */
-           rotate-deg = <315>;
-   };
-
    /* adjust cooldown waiting period for mouse key layer (MSK) after activated */
    ib_tog_layer: ib_tog_layer {
         compatible = "zmk,input-behavior-tog-layer";
