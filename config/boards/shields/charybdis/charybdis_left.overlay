@@ -1,4 +1,5 @@
 #include "charybdis.dtsi"
+#include "pwm3610dm_trackball.dtsi"
 
 &kscan0 {
 	col-gpios
